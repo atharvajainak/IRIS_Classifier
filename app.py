@@ -11,4 +11,4 @@ pl = st.slider('Petal Length', 0.5, 6.9, 5.6)
 pw = st.slider('Petal Width', 0.1,2.5, 2.1)
 
 op = model.predict([[sl,sw,pl,pw]])
-st.title(op)
+st.title(op[0])
